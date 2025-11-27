@@ -1,89 +1,71 @@
-/* Responsive Design */
-@media (max-width: 992px) {
-    h1 {
-        font-size: 2.8rem;
-    }
+/* Mobile First Responsive Design */
 
-    h2 {
-        font-size: 2.2rem;
-    }
-
-    .about-content {
-        flex-direction: column;
-    }
-}
-
+/* Tablets */
 @media (max-width: 768px) {
-    .navbar {
-        padding: 15px 0;
-    }
-
-    .nav-links {
-        position: fixed;
-        top: 70px;
-        left: -100%;
-        width: 100%;
-        background: white;
+    header {
         flex-direction: column;
-        align-items: center;
-        padding: 20px 0;
-        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-        transition: left 0.3s ease;
+        gap: 1rem;
+        padding: 1rem;
+        position: relative;
     }
 
-    .nav-links.active {
-        left: 0;
-    }
-
-    .nav-links li {
-        margin: 15px 0;
-    }
-
-    .hamburger {
-        display: block;
+    .main-nav ul {
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .hero {
-        padding: 150px 0 80px;
+        padding: 2rem 1rem;
+        margin-top: 0;
     }
 
-    .hero h1 {
-        font-size: 2.5rem;
-    }
-
-    .hero-btns {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .hero-btns .btn {
-        width: 80%;
-        margin-bottom: 10px;
-    }
-}
-
-@media (max-width: 576px) {
-    h1 {
+    .hero-content h1 {
         font-size: 2.2rem;
     }
 
-    h2 {
+    .services-grid,
+    .projects-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .services,
+    .projects,
+    .contact {
+        padding: 2rem 1rem;
+    }
+}
+
+/* Mobile Phones */
+@media (max-width: 480px) {
+    .hero-content h1 {
         font-size: 1.8rem;
     }
 
-    section {
-        padding: 60px 0;
+    .hero-content p {
+        font-size: 1rem;
     }
 
-    .portfolio-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .services-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .footer-content {
+    .main-nav ul {
         flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+
+    .services h2,
+    .projects h2,
+    .contact h2 {
+        font-size: 2rem;
+    }
+
+    .service-card,
+    .project-card {
+        padding: 1.5rem;
+    }
+
+    .cta-button {
+        padding: 12px 25px;
+        font-size: 1rem;
     }
 }

@@ -1,1 +1,415 @@
-# Kwame_Tech_Labs.github.io
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kwame Tech Labs | Game & Design Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="styles/logo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Background Slideshow -->
+    <div class="background-slideshow">
+        <div class="slide active" style="background-image: url('assets/wp13111904-efootball-2024-wallpapers.jpg');">
+        </div>
+        <div class="slide" style="background-image: url('assets/wp13111922-efootball-2024-wallpapers.jpg');"></div>
+        <div class="slide-overlay"></div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">
+                    <img src="assets/Ken Tech.png" alt="Kwame Tech Labs Logo" class="logo-img">
+                    <span class="logo-text">Kwame Tech Labs</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Creative Digital Experiences</h1>
+            <p>Kwame Tech Labs specializes in developing engaging games, innovative software solutions, and stunning
+                graphic designs that captivate audiences and deliver results.</p>
+            <div class="hero-btns">
+                <a href="#portfolio" class="btn">View Our Work</a>
+                <a href="#contact" class="btn btn-outline">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About Kwame Tech Labs</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Founded with a passion for technology and creativity, Kwame Tech Labs brings together a team of
+                        skilled developers, designers, and innovators dedicated to pushing the boundaries of digital
+                        experiences.</p>
+                    <p>We believe in the power of well-crafted software and visually compelling design to transform
+                        ideas into engaging digital products that resonate with users.</p>
+                    <p>Our approach combines technical expertise with artistic vision, ensuring that every project we
+                        deliver not only functions flawlessly but also creates an emotional connection with its
+                        audience.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h3>50+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>5+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>30+</h3>
+                            <p>Happy Clients</p>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn" style="margin-top: 20px;">Work With Us</a>
+                </div>
+                <div class="about-image">
+                    <div class="placeholder-image">
+                        <i class="fas fa-users" style="font-size: 4rem; margin-bottom: 20px;"></i>
+                        <br>
+                        Team/Studio Image
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2>Our Portfolio</h2>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="games">Games</button>
+                <button class="filter-btn" data-filter="software">Software</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Game 1 -->
+                <div class="portfolio-item" data-category="games">
+                    <div class="portfolio-img">
+                        <div class="placeholder-project game-1">
+                            <i class="fas fa-gamepad" style="font-size: 3rem; margin-bottom: 15px;"></i>
+                            <br>
+                            Cosmic Adventure
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Cosmic Adventure</h3>
+                        <p>An immersive space exploration game with stunning visuals and engaging gameplay mechanics.
+                            Features procedurally generated galaxies and realistic physics.</p>
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">Unity</span>
+                            <span class="portfolio-tag">C#</span>
+                            <span class="portfolio-tag">3D Graphics</span>
+                            <span class="portfolio-tag">VR Ready</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Software 1 -->
+                <div class="portfolio-item" data-category="software">
+                    <div class="portfolio-img">
+                        <div class="placeholder-project software-1">
+                            <i class="fas fa-tasks" style="font-size: 3rem; margin-bottom: 15px;"></i>
+                            <br>
+                            TaskFlow Pro
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>TaskFlow Pro</h3>
+                        <p>A productivity application that helps teams organize workflows and collaborate effectively.
+                            Real-time updates and advanced project tracking.</p>
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">React</span>
+                            <span class="portfolio-tag">Node.js</span>
+                            <span class="portfolio-tag">MongoDB</span>
+                            <span class="portfolio-tag">Real-time</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Design 1 -->
+                <div class="portfolio-item" data-category="design">
+                    <div class="portfolio-img">
+                        <div class="placeholder-project design-1">
+                            <i class="fas fa-palette" style="font-size: 3rem; margin-bottom: 15px;"></i>
+                            <br>
+                            Nova Brand
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Nova Brand Identity</h3>
+                        <p>Complete brand identity design including logo, color palette, typography, and marketing
+                            materials. Modern and minimalist approach.</p>
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">Illustrator</span>
+                            <span class="portfolio-tag">Photoshop</span>
+                            <span class="portfolio-tag">Branding</span>
+                            <span class="portfolio-tag">Typography</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Game 2 -->
+                <div class="portfolio-item" data-category="games">
+                    <div class="portfolio-img">
+                        <div class="placeholder-project game-2">
+                            <i class="fas fa-chess-board" style="font-size: 3rem; margin-bottom: 15px;"></i>
+                            <br>
+                            Pixel Quest
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Pixel Quest</h3>
+                        <p>A retro-style platformer with modern gameplay elements and charming pixel art visuals. Over
+                            100 levels and character customization.</p>
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">Godot</span>
+                            <span class="portfolio-tag">GDScript</span>
+                            <span class="portfolio-tag">Pixel Art</span>
+                            <span class="portfolio-tag">Mobile</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Software 2 -->
+                <div class="portfolio-item" data-category="software">
+                    <div class="portfolio-img">
+                        <div class="placeholder-project software-2">
+                            <i class="fas fa-heartbeat" style="font-size: 3rem; margin-bottom: 15px;"></i>
+                            <br>
+                            HealthTrack
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>HealthTrack</h3>
+                        <p>A comprehensive health monitoring application with data visualization and reporting features.
+                            Integrates with wearable devices.</p>
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">Flutter</span>
+                            <span class="portfolio-tag">Firebase</span>
+                            <span class="portfolio-tag">Data Visualization</span>
+                            <span class="portfolio-tag">Health API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Design 2 -->
+                <div class="portfolio-item" data-category="design">
+                    <div class="portfolio-img">
+                        <div class="placeholder-project design-2">
+                            <i class="fas fa-shopping-cart" style="font-size: 3rem; margin-bottom: 15px;"></i>
+                            <br>
+                            E-commerce UI
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>E-commerce Platform UI</h3>
+                        <p>User interface and experience design for a modern e-commerce platform with intuitive
+                            navigation and seamless checkout process.</p>
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">Figma</span>
+                            <span class="portfolio-tag">UI/UX</span>
+                            <span class="portfolio-tag">Prototyping</span>
+                            <span class="portfolio-tag">Wireframing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>Game Development</h3>
+                    <p>From concept to launch, we create engaging games for multiple platforms with compelling gameplay
+                        and stunning visuals. Our expertise includes mobile, PC, and console development.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> 2D & 3D Game Development</li>
+                        <li><i class="fas fa-check"></i> Mobile & Console Porting</li>
+                        <li><i class="fas fa-check"></i> VR/AR Experiences</li>
+                        <li><i class="fas fa-check"></i> Multiplayer Integration</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Software Solutions</h3>
+                    <p>Custom software development tailored to your business needs, including web applications, mobile
+                        apps, and desktop software. We use cutting-edge technologies.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Web & Mobile Applications</li>
+                        <li><i class="fas fa-check"></i> Cloud Solutions</li>
+                        <li><i class="fas fa-check"></i> API Development</li>
+                        <li><i class="fas fa-check"></i> Database Design</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Graphic Design</h3>
+                    <p>Creative visual solutions including branding, UI/UX design, illustrations, and marketing
+                        materials that make an impact and drive engagement.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Brand Identity & Logo Design</li>
+                        <li><i class="fas fa-check"></i> UI/UX Design</li>
+                        <li><i class="fas fa-check"></i> Marketing Materials</li>
+                        <li><i class="fas fa-check"></i> Digital Illustrations</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>Have a project in mind or want to collaborate? We'd love to hear from you. Send us a message and we'll
+                respond as soon as possible.</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Our Location</h4>
+                            <p>Accra, Ghana</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone Number</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email Address</h4>
+                            <p>hello@kwametechlabs.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Working Hours</h4>
+                            <p>Mon - Fri: 9:00 - 18:00</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>Kwame Tech Labs</h3>
+                    <p>Creating exceptional digital experiences through innovative games, software, and design. We
+                        transform ideas into engaging digital products.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Game Development</a></li>
+                        <li><a href="#">Software Solutions</a></li>
+                        <li><a href="#">Graphic Design</a></li>
+                        <li><a href="#">UI/UX Design</a></li>
+                        <li><a href="#">Consulting</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter for updates on new projects and services.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Kwame Tech Labs. All Rights Reserved. | Designed with <i class="fas fa-heart"
+                        style="color: var(--accent);"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

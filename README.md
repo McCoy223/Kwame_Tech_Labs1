@@ -1,2 +1,86 @@
-# Kwame Tech Labs
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kwame Tech Labs - Innovative Technology Solutions</title>
+    <link rel="stylesheet" href="/Kwame_Tech_Labs.github.io/style.css">
+    <link rel="stylesheet" href="/Kwame_Tech_Labs.github.io/responsive.css">
+    <link rel="stylesheet" href="/Kwame_Tech_Labs.github.io/logo.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="/Kwame_Tech_Labs.github.io/Ken Tech.png" alt="Kwame Tech Labs Logo" class="logo">
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Kwame Tech Labs</h1>
+                <p>Innovative Technology Solutions for the Modern World</p>
+                <button class="cta-button" onclick="showWelcome()">Get Started</button>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Web Development</h3>
+                    <p>Custom websites and web applications built with modern technologies.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Mobile Apps</h3>
+                    <p>iOS and Android applications designed for optimal user experience.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Cloud Solutions</h3>
+                    <p>Scalable cloud infrastructure and deployment solutions.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>E-Sports Platform</h3>
+                    <p>Gaming tournament management system</p>
+                </div>
+                <div class="project-card">
+                    <h3>Mobile Gaming App</h3>
+                    <p>Real-time multiplayer gaming application</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Kwame Tech Labs. All rights reserved.</p>
+    </footer>
+
+    <script src="/Kwame_Tech_Labs.github.io/hello.js"></script>
+</body>
+</html>
 

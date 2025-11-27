@@ -102,19 +102,19 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Background Slideshow
+// Background Slideshow - Fixed version
 function initSlideshow() {
-    const slides = document.querySelectorAll('.slide');
+    const slides = document.querySelectorAll('.background-slideshow .slide');
     if (slides.length > 0) {
         let currentSlide = 0;
 
         function nextSlide() {
             // Remove active class from current slide
             slides[currentSlide].classList.remove('active');
-
+            
             // Move to next slide
             currentSlide = (currentSlide + 1) % slides.length;
-
+            
             // Add active class to new slide
             slides[currentSlide].classList.add('active');
         }

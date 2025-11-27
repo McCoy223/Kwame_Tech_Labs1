@@ -1,0 +1,28 @@
+/* Slideshow Specific Styles */
+.background-slideshow .slide {
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.background-slideshow .slide.active {
+    opacity: 1;
+}
+
+/* Reduced spacing for sections */
+section {
+    padding: 60px 0;
+}
+
+.hero {
+    padding: 150px 0 80px;
+}
+
+footer {
+    padding: 60px 0 20px;
+}
+
+/* Ensure content stays above slideshow */
+body {
+    position: relative;
+    z-index: 1;
+}
